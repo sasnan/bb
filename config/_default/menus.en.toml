@@ -1,0 +1,52 @@
+[[main]]
+  identifier = "posts"
+  name = "posts"
+  url = "posts"
+  weight = 1
+
+[[main]]
+  identifier = "softwares"
+  name = "softwares"
+  url = "softwares"
+  weight = 2
+
+
+[[main]]
+  identifier = "archive"
+  name = "archive"
+  url = "archive"
+  weight = 11
+
+[[main]]
+  identifier = "pt"
+  name = "pt"
+  url = "pt"
+  weight = 21
+
+[[main]]
+  identifier = "gallery"
+  name = "gallery"
+  url = "gallery"
+  weight = 31
+    
+[[main]]
+  parent = "gallery"
+  name = "cartoon"
+  url = "gallery/cartoon"
+
+[[main]]
+  parent = "gallery"
+  name = "photo"
+  url = "gallery/photo"
+
+[[main]]
+  identifier = "about"
+  name = "about"
+  url = "about"
+  weight = 41
+
+[[main]]
+  identifier = "publication"
+  name = "pub"
+  url = "publication"
+  weight = 51  
